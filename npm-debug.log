@@ -1,0 +1,438 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'passport',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose install initial load of F:\webstorm\package.json
+5 warn package.json mean@1.0.0 No repository field.
+6 warn package.json mean@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\body-parser\package.json
+8 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\compression\package.json
+9 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\ejs\package.json
+10 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\express\package.json
+11 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\express-session\package.json
+12 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\method-override\package.json
+13 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\mongoose\package.json
+14 verbose installManyTop reading scoped package data from F:\webstorm\node_modules\morgan\package.json
+15 verbose readDependencies loading dependencies from F:\webstorm\package.json
+16 silly cache add args [ 'passport', null ]
+17 verbose cache add spec passport
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'passport',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'passport',
+18 silly cache add   rawSpec: '',
+18 silly cache add   spec: 'latest',
+18 silly cache add   type: 'tag' }
+19 silly addNamed passport@latest
+20 verbose addNamed "latest" is being treated as a dist-tag for passport
+21 info addNameTag [ 'passport', 'latest' ]
+22 silly mapToRegistry name passport
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'passport',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'passport',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/passport
+27 verbose addNameTag registry:https://registry.npmjs.org/passport not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/passport
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 6:01:39 PM
+31 verbose request id 6ce1867d7a50eba6
+32 http request GET https://registry.npmjs.org/passport
+33 http 200 https://registry.npmjs.org/passport
+34 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 verbose headers   etag: '"97XUO6WBO59X7Y5ZM36M26OGH"',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'content-encoding': 'gzip',
+34 verbose headers   'cache-control': 'max-age=300',
+34 verbose headers   'content-length': '9049',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '190',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+34 verbose headers   'x-cache': 'HIT',
+34 verbose headers   'x-cache-hits': '2',
+34 verbose headers   'x-timer': 'S1478512900.179028,VS0,VE0',
+34 verbose headers   vary: 'Accept-Encoding' }
+35 silly get cb [ 200,
+35 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly get     etag: '"97XUO6WBO59X7Y5ZM36M26OGH"',
+35 silly get     'content-type': 'application/json',
+35 silly get     'content-encoding': 'gzip',
+35 silly get     'cache-control': 'max-age=300',
+35 silly get     'content-length': '9049',
+35 silly get     'accept-ranges': 'bytes',
+35 silly get     date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     age: '190',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-sin6926-SIN',
+35 silly get     'x-cache': 'HIT',
+35 silly get     'x-cache-hits': '2',
+35 silly get     'x-timer': 'S1478512900.179028,VS0,VE0',
+35 silly get     vary: 'Accept-Encoding' } ]
+36 verbose get saving passport to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\passport\.cache.json
+37 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 silly addNameTag next cb for passport with tag latest
+39 silly addNamed passport@0.3.2
+40 verbose addNamed "0.3.2" is a plain semver version for passport
+41 silly mapToRegistry name passport
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'passport',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   name: 'passport',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/passport
+46 verbose addRemoteTarball https://registry.npmjs.org/passport/-/passport-0.3.2.tgz not in flight; adding
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport/-/passport-0.3.2.tgz',
+47 verbose addRemoteTarball   '9dd009f915e8fe095b0124a01b8f82da07510102' ]
+48 info retry fetch attempt 1 at 6:01:40 PM
+49 info attempt registry request try #1 at 6:01:40 PM
+50 http fetch GET https://registry.npmjs.org/passport/-/passport-0.3.2.tgz
+51 http fetch 200 https://registry.npmjs.org/passport/-/passport-0.3.2.tgz
+52 silly fetchAndShaCheck shasum 9dd009f915e8fe095b0124a01b8f82da07510102
+53 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-6604-1055a615\registry.npmjs.org\passport\-\passport-0.3.2.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for passport@0.3.2
+55 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+56 silly cache afterAdd passport@0.3.2
+57 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\passport\0.3.2\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\passport\0.3.2\package\package.json written
+60 silly install resolved [ { name: 'passport',
+60 silly install resolved     version: '0.3.2',
+60 silly install resolved     description: 'Simple, unobtrusive authentication for Node.js.',
+60 silly install resolved     keywords: [ 'express', 'connect', 'auth', 'authn', 'authentication' ],
+60 silly install resolved     author:
+60 silly install resolved      { name: 'Jared Hanson',
+60 silly install resolved        email: 'jaredhanson@gmail.com',
+60 silly install resolved        url: 'http://www.jaredhanson.net/' },
+60 silly install resolved     homepage: 'http://passportjs.org/',
+60 silly install resolved     repository:
+60 silly install resolved      { type: 'git',
+60 silly install resolved        url: 'git://github.com/jaredhanson/passport.git' },
+60 silly install resolved     bugs: { url: 'http://github.com/jaredhanson/passport/issues' },
+60 silly install resolved     license: 'MIT',
+60 silly install resolved     licenses: [ [Object] ],
+60 silly install resolved     main: './lib',
+60 silly install resolved     dependencies: { 'passport-strategy': '1.x.x', pause: '0.0.1' },
+60 silly install resolved     devDependencies:
+60 silly install resolved      { mocha: '2.x.x',
+60 silly install resolved        chai: '2.x.x',
+60 silly install resolved        'chai-connect-middleware': '0.3.x',
+60 silly install resolved        'chai-passport-strategy': '0.2.x',
+60 silly install resolved        proxyquire: '1.x.x' },
+60 silly install resolved     engines: { node: '>= 0.4.0' },
+60 silly install resolved     scripts: { test: 'mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js' },
+60 silly install resolved     gitHead: 'ee57813037914642906aa9ed9e1c9ecbebf905ff',
+60 silly install resolved     _id: 'passport@0.3.2',
+60 silly install resolved     _shasum: '9dd009f915e8fe095b0124a01b8f82da07510102',
+60 silly install resolved     _from: 'passport@latest',
+60 silly install resolved     _npmVersion: '1.4.28',
+60 silly install resolved     _npmUser: { name: 'jaredhanson', email: 'jaredhanson@gmail.com' },
+60 silly install resolved     maintainers: [ [Object] ],
+60 silly install resolved     dist:
+60 silly install resolved      { shasum: '9dd009f915e8fe095b0124a01b8f82da07510102',
+60 silly install resolved        tarball: 'https://registry.npmjs.org/passport/-/passport-0.3.2.tgz' },
+60 silly install resolved     directories: {},
+60 silly install resolved     _resolved: 'https://registry.npmjs.org/passport/-/passport-0.3.2.tgz' } ]
+61 info install passport@0.3.2 into F:\webstorm
+62 info installOne passport@0.3.2
+63 verbose installOne of passport to F:\webstorm not in flight; installing
+64 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+65 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\passport-4955d9dee6d7c4b2.lock for F:\webstorm\node_modules\passport
+66 silly install write writing passport 0.3.2 to F:\webstorm\node_modules\passport
+67 verbose unbuild node_modules\passport
+68 silly gentlyRm F:\webstorm\node_modules\passport is being purged from base F:\webstorm
+69 verbose gentlyRm don't care about contents; nuking F:\webstorm\node_modules\passport
+70 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\passport\0.3.2\package.tgz
+71 verbose tar unpacking to F:\webstorm\node_modules\passport
+72 silly gentlyRm F:\webstorm\node_modules\passport is being purged
+73 verbose gentlyRm don't care about contents; nuking F:\webstorm\node_modules\passport
+74 silly gunzTarPerm modes [ '777', '666' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+77 silly gunzTarPerm extractEntry LICENSE
+78 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+79 silly gunzTarPerm extractEntry lib/authenticator.js
+80 silly gunzTarPerm modified mode [ 'lib/authenticator.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry lib/index.js
+82 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+83 silly gunzTarPerm extractEntry lib/errors/authenticationerror.js
+84 silly gunzTarPerm modified mode [ 'lib/errors/authenticationerror.js', 420, 438 ]
+85 silly gunzTarPerm extractEntry lib/framework/connect.js
+86 silly gunzTarPerm modified mode [ 'lib/framework/connect.js', 420, 438 ]
+87 silly gunzTarPerm extractEntry lib/http/request.js
+88 silly gunzTarPerm modified mode [ 'lib/http/request.js', 420, 438 ]
+89 silly gunzTarPerm extractEntry lib/middleware/authenticate.js
+90 silly gunzTarPerm modified mode [ 'lib/middleware/authenticate.js', 420, 438 ]
+91 silly gunzTarPerm extractEntry lib/middleware/initialize.js
+92 silly gunzTarPerm modified mode [ 'lib/middleware/initialize.js', 420, 438 ]
+93 silly gunzTarPerm extractEntry lib/strategies/session.js
+94 silly gunzTarPerm modified mode [ 'lib/strategies/session.js', 420, 438 ]
+95 verbose write writing to F:\webstorm\node_modules\passport\package.json
+96 info preinstall passport@0.3.2
+97 verbose readDependencies loading dependencies from F:\webstorm\node_modules\passport\package.json
+98 silly prepareForInstallMany adding passport-strategy@1.x.x from passport dependencies
+99 silly prepareForInstallMany adding pause@0.0.1 from passport dependencies
+100 verbose readDependencies loading dependencies from F:\webstorm\node_modules\passport\package.json
+101 silly cache add args [ 'pause@0.0.1', null ]
+102 verbose cache add spec pause@0.0.1
+103 silly cache add parsed spec Result {
+103 silly cache add   raw: 'pause@0.0.1',
+103 silly cache add   scope: null,
+103 silly cache add   name: 'pause',
+103 silly cache add   rawSpec: '0.0.1',
+103 silly cache add   spec: '0.0.1',
+103 silly cache add   type: 'version' }
+104 silly addNamed pause@0.0.1
+105 verbose addNamed "0.0.1" is a plain semver version for pause
+106 silly mapToRegistry name pause
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry data Result {
+109 silly mapToRegistry   raw: 'pause',
+109 silly mapToRegistry   scope: null,
+109 silly mapToRegistry   name: 'pause',
+109 silly mapToRegistry   rawSpec: '',
+109 silly mapToRegistry   spec: 'latest',
+109 silly mapToRegistry   type: 'tag' }
+110 silly mapToRegistry uri https://registry.npmjs.org/pause
+111 verbose addNameVersion registry:https://registry.npmjs.org/pause not in flight; fetching
+112 silly cache add args [ 'passport-strategy@1.x.x', null ]
+113 verbose cache add spec passport-strategy@1.x.x
+114 silly cache add parsed spec Result {
+114 silly cache add   raw: 'passport-strategy@1.x.x',
+114 silly cache add   scope: null,
+114 silly cache add   name: 'passport-strategy',
+114 silly cache add   rawSpec: '1.x.x',
+114 silly cache add   spec: '>=1.0.0 <2.0.0',
+114 silly cache add   type: 'range' }
+115 silly addNamed passport-strategy@>=1.0.0 <2.0.0
+116 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for passport-strategy
+117 silly addNameRange { name: 'passport-strategy',
+117 silly addNameRange   range: '>=1.0.0 <2.0.0',
+117 silly addNameRange   hasData: false }
+118 silly mapToRegistry name passport-strategy
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry data Result {
+121 silly mapToRegistry   raw: 'passport-strategy',
+121 silly mapToRegistry   scope: null,
+121 silly mapToRegistry   name: 'passport-strategy',
+121 silly mapToRegistry   rawSpec: '',
+121 silly mapToRegistry   spec: 'latest',
+121 silly mapToRegistry   type: 'tag' }
+122 silly mapToRegistry uri https://registry.npmjs.org/passport-strategy
+123 verbose addNameRange registry:https://registry.npmjs.org/passport-strategy not in flight; fetching
+124 verbose request uri https://registry.npmjs.org/pause
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 6:01:40 PM
+127 http request GET https://registry.npmjs.org/pause
+128 verbose request uri https://registry.npmjs.org/passport-strategy
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 6:01:40 PM
+131 http request GET https://registry.npmjs.org/passport-strategy
+132 http 200 https://registry.npmjs.org/pause
+133 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+133 verbose headers   etag: '"AMXJRF8IYEDH2W7ZVFJ83MJR8"',
+133 verbose headers   'content-type': 'application/json',
+133 verbose headers   'content-encoding': 'gzip',
+133 verbose headers   'cache-control': 'max-age=300',
+133 verbose headers   'content-length': '1637',
+133 verbose headers   'accept-ranges': 'bytes',
+133 verbose headers   date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+133 verbose headers   via: '1.1 varnish',
+133 verbose headers   age: '250',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+133 verbose headers   'x-cache': 'HIT',
+133 verbose headers   'x-cache-hits': '4',
+133 verbose headers   'x-timer': 'S1478512900.557714,VS0,VE0',
+133 verbose headers   vary: 'Accept-Encoding' }
+134 silly get cb [ 200,
+134 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+134 silly get     etag: '"AMXJRF8IYEDH2W7ZVFJ83MJR8"',
+134 silly get     'content-type': 'application/json',
+134 silly get     'content-encoding': 'gzip',
+134 silly get     'cache-control': 'max-age=300',
+134 silly get     'content-length': '1637',
+134 silly get     'accept-ranges': 'bytes',
+134 silly get     date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+134 silly get     via: '1.1 varnish',
+134 silly get     age: '250',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-served-by': 'cache-sin6926-SIN',
+134 silly get     'x-cache': 'HIT',
+134 silly get     'x-cache-hits': '4',
+134 silly get     'x-timer': 'S1478512900.557714,VS0,VE0',
+134 silly get     vary: 'Accept-Encoding' } ]
+135 verbose get saving pause to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\pause\.cache.json
+136 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+137 silly mapToRegistry name pause
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'pause',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'pause',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/pause
+142 verbose addRemoteTarball https://registry.npmjs.org/pause/-/pause-0.0.1.tgz not in flight; adding
+143 verbose addRemoteTarball [ 'https://registry.npmjs.org/pause/-/pause-0.0.1.tgz',
+143 verbose addRemoteTarball   '1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d' ]
+144 info retry fetch attempt 1 at 6:01:40 PM
+145 info attempt registry request try #1 at 6:01:40 PM
+146 http fetch GET https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+147 http fetch 200 https://registry.npmjs.org/pause/-/pause-0.0.1.tgz
+148 silly fetchAndShaCheck shasum 1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d
+149 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-6604-1055a615\registry.npmjs.org\pause\-\pause-0.0.1.tgz not in flight; adding
+150 verbose addTmpTarball already have metadata; skipping unpack for pause@0.0.1
+151 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+152 silly cache afterAdd pause@0.0.1
+153 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\pause\0.0.1\package\package.json not in flight; writing
+154 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+155 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\pause\0.0.1\package\package.json written
+156 http 200 https://registry.npmjs.org/passport-strategy
+157 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 verbose headers   etag: '"811P1IR12SU0EJ2BHYWRT18DR"',
+157 verbose headers   'content-type': 'application/json',
+157 verbose headers   'content-encoding': 'gzip',
+157 verbose headers   'cache-control': 'max-age=300',
+157 verbose headers   'content-length': '1474',
+157 verbose headers   'accept-ranges': 'bytes',
+157 verbose headers   date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+157 verbose headers   via: '1.1 varnish',
+157 verbose headers   age: '227',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+157 verbose headers   'x-cache': 'HIT',
+157 verbose headers   'x-cache-hits': '2',
+157 verbose headers   'x-timer': 'S1478512900.771349,VS0,VE0',
+157 verbose headers   vary: 'Accept-Encoding' }
+158 silly get cb [ 200,
+158 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+158 silly get     etag: '"811P1IR12SU0EJ2BHYWRT18DR"',
+158 silly get     'content-type': 'application/json',
+158 silly get     'content-encoding': 'gzip',
+158 silly get     'cache-control': 'max-age=300',
+158 silly get     'content-length': '1474',
+158 silly get     'accept-ranges': 'bytes',
+158 silly get     date: 'Mon, 07 Nov 2016 10:01:40 GMT',
+158 silly get     via: '1.1 varnish',
+158 silly get     age: '227',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-served-by': 'cache-sin6925-SIN',
+158 silly get     'x-cache': 'HIT',
+158 silly get     'x-cache-hits': '2',
+158 silly get     'x-timer': 'S1478512900.771349,VS0,VE0',
+158 silly get     vary: 'Accept-Encoding' } ]
+159 verbose get saving passport-strategy to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\passport-strategy\.cache.json
+160 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+161 silly addNameRange number 2 { name: 'passport-strategy',
+161 silly addNameRange   range: '>=1.0.0 <2.0.0',
+161 silly addNameRange   hasData: true }
+162 silly addNameRange versions [ 'passport-strategy', [ '1.0.0' ] ]
+163 silly addNamed passport-strategy@1.0.0
+164 verbose addNamed "1.0.0" is a plain semver version for passport-strategy
+165 silly mapToRegistry name passport-strategy
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry data Result {
+168 silly mapToRegistry   raw: 'passport-strategy',
+168 silly mapToRegistry   scope: null,
+168 silly mapToRegistry   name: 'passport-strategy',
+168 silly mapToRegistry   rawSpec: '',
+168 silly mapToRegistry   spec: 'latest',
+168 silly mapToRegistry   type: 'tag' }
+169 silly mapToRegistry uri https://registry.npmjs.org/passport-strategy
+170 verbose addRemoteTarball https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz',
+171 verbose addRemoteTarball   'b5539aa8fc225a3d1ad179476ddf236b440f52e4' ]
+172 info retry fetch attempt 1 at 6:01:40 PM
+173 info attempt registry request try #1 at 6:01:40 PM
+174 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+175 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+176 info retry will retry, error on last attempt: Error: server error 503
+177 info attempt registry request try #2 at 6:01:50 PM
+178 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+179 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+180 info retry will retry, error on last attempt: Error: server error 503
+181 info attempt registry request try #3 at 6:02:50 PM
+182 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+183 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+184 error fetch failed https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+185 warn retry will retry, error on last attempt: Error: fetch failed with status code 503
+186 info retry fetch attempt 2 at 6:03:01 PM
+187 info attempt registry request try #1 at 6:03:01 PM
+188 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+189 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+190 info retry will retry, error on last attempt: Error: server error 503
+191 info attempt registry request try #2 at 6:03:11 PM
+192 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+193 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+194 info retry will retry, error on last attempt: Error: server error 503
+195 info attempt registry request try #3 at 6:04:11 PM
+196 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+197 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+198 error fetch failed https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+199 warn retry will retry, error on last attempt: Error: fetch failed with status code 503
+200 info retry fetch attempt 3 at 6:05:11 PM
+201 info attempt registry request try #1 at 6:05:11 PM
+202 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+203 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+204 info retry will retry, error on last attempt: Error: server error 503
+205 info attempt registry request try #2 at 6:05:21 PM
+206 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+207 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+208 info retry will retry, error on last attempt: Error: server error 503
+209 info attempt registry request try #3 at 6:06:21 PM
+210 http fetch GET https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+211 http fetch 503 https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+212 error fetch failed https://registry.npmjs.org/passport-strategy/-/passport-strategy-1.0.0.tgz
+213 verbose about to build F:\webstorm\node_modules\passport
+214 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\passport-4955d9dee6d7c4b2.lock for F:\webstorm\node_modules\passport
+215 verbose stack Error: fetch failed with status code 503
+215 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\fetch.js:51:14)
+215 verbose stack     at emitOne (events.js:77:13)
+215 verbose stack     at Request.emit (events.js:169:7)
+215 verbose stack     at Request.onRequestResponse (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:977:10)
+215 verbose stack     at emitOne (events.js:77:13)
+215 verbose stack     at ClientRequest.emit (events.js:169:7)
+215 verbose stack     at HTTPParser.parserOnIncomingClient (_http_client.js:433:21)
+215 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:103:23)
+215 verbose stack     at TLSSocket.socketOnData (_http_client.js:322:20)
+215 verbose stack     at emitOne (events.js:77:13)
+216 verbose cwd F:\webstorm
+217 error Windows_NT 6.3.9600
+218 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "passport" "--save"
+219 error node v4.6.1
+220 error npm  v2.15.9
+221 error fetch failed with status code 503
+222 error If you need help, you may report this error at:
+222 error     <https://github.com/npm/npm/issues>
+223 verbose exit [ 1, true ]
+224 verbose unbuild node_modules\passport
+225 info preuninstall passport@0.3.2
+226 info uninstall passport@0.3.2
+227 verbose unbuild rmStuff passport@0.3.2 from F:\webstorm\node_modules
+228 info postuninstall passport@0.3.2
+229 silly gentlyRm F:\webstorm\node_modules\passport is being purged from base F:\webstorm
+230 verbose gentlyRm don't care about contents; nuking F:\webstorm\node_modules\passport
+231 silly vacuum-fs purging F:\webstorm\node_modules\passport
+232 silly vacuum-fs quitting because other entries in F:\webstorm\node_modules
